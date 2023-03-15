@@ -1,12 +1,13 @@
-import "./App.css";
-import { Button } from "./component/buttons";
+import { Header } from "./component/Header/Header";
+import { ChooseEvent } from "./component/ReportClaim/ChooseEvent";
 
-function App() {
+export function App() {
   return (
-    <div className="App">
-      <Button />
+    <div>
+      <Header />
+      <ChooseEvent/>
     </div>
   );
 }
 
-export default App;
+
